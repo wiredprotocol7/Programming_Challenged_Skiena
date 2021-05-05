@@ -1,0 +1,4 @@
+Backtracking is necessary when:
+  i. We need to do the exhaustive search
+  2. But we also need effective pruning of the search space to do effective search.
+It is a systematic method to iterate through all possible configuration of the search space. 
