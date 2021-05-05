@@ -64,7 +64,7 @@ void backtrack(vector<lint>  arr,lint k, lint t, vector<lint> &input)
 
 }
 
-void getsubset(vector<lint> &input)
+void permute(vector<lint> &input)
 {
     vector<lint> arr {};
     backtrack(arr,0,input.size(),input);
@@ -90,6 +90,6 @@ int main()
 
     }
 
-    getsubset(input);
+    permute(input);
 
 }
